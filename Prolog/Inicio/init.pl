@@ -1,0 +1,2 @@
+tiene(puerta,ventana).
+

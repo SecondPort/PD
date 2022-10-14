@@ -5,7 +5,7 @@ cuadrado x = x * x
 esPar :: Integer -> Bool
 esPar x = mod x 2 == 0
 
-esParTexto :: Integer -> String
+esParTexto :: Integer ->String
 esParTexto x
     | esPar x = "par"
     | otherwise = "impar"
@@ -21,6 +21,8 @@ main = do
     putStrLn "ingrese otro numero"
     numero1 <- getLine
     putStrLn ("la suma es: " ++ show (add (read numero) (read numero1)))
+
+
 
 {-
 funcion :: [Integer] -> [Integer]
